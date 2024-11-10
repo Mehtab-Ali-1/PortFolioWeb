@@ -34,13 +34,13 @@ export default function Header() {
       }`}
     >
       <div>
-        <h1 className="bg-orange-600 text-white p-3 rounded-full font-semibold text-lg">
+        <h1 className="bg-orange-600 text-white p-3 rounded-full font-semibold text-lg select-none">
           MA
         </h1>
       </div>
       <div>
         <ul>
-          <li className="hidden md:block space-x-4 ">
+          <li className="hidden md:block space-x-4 select-none">
             <Link className="hover:text-orange-600" href="/homepage">
               Home
             </Link>
@@ -58,7 +58,7 @@ export default function Header() {
       </div>
       <div className="hidden md:block">
         <Link
-          className="bg-orange-600 text-white py-2 px-4 rounded-3xl text-lg hover:bg-slate-800 hover:text-orange-400"
+          className="bg-orange-600 text-white py-2 px-4 rounded-3xl text-lg hover:bg-slate-800 hover:text-orange-400 select-none"
           href="/"
         >
           Hire Me
