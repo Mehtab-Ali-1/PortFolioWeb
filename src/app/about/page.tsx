@@ -51,9 +51,9 @@ export default function About () {
         {/* experiecne lining*/}
         <div className="md:flex max-md:px-11 px-16 items-center space-x-6">
             <div className="text-start space-y-7 md:pt-12 max-md:pt-7 md:flex-1 ">
-                <h1 className="text-blue-950 md:text-4xl max-md:text-3xl font-serif font-semibold">Frontend and Beckend Developer</h1>
+                <h1 className="text-blue-950 md:text-4xl max-md:text-3xl font-serif font-semibold select-none">Frontend and Beckend Developer</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero voluptas labore reprehenderit dignissimos pariatur numquam consectetur beatae recusandae, officiis, non eveniet sapiente iste tempore, delectus maxime. Eaque ullam iure id? Totam maxime eaque quia! Explicabo et ut quisquam dignissimos, quod mollitia eos omnis expedita molestias? Hic voluptate saepe blanditiis rerum?</p>
-                <p><Link className="bg-orange-600 text-white px-3 py-2 text-lg" href="#">Download CV</Link></p>
+                <p><Link className="bg-orange-600 text-white px-3 py-2 text-lg select-none" href="#">Download CV</Link></p>
             </div>
             
             <div className=" space-y-5 md:pt-10 pt-7 md:flex-1 select-none">
