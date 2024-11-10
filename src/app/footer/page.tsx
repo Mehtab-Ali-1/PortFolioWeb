@@ -7,12 +7,12 @@ export default function Footer () {
             <div className="flex justify-center  min-[300px]:flex-col pt-10">
                 {/* logo  */}
                 <div>
-                <h1 className="bg-orange-600 text-white p-3 rounded-full font-semibold text-lg">MA</h1>
+                <h1 className="bg-orange-600 text-white p-3 rounded-full font-semibold text-lg select-none">MA</h1>
             </div>
                 
             </div>
                 {/* icons */}
-            <div className=" items-center">
+            <div className=" items-center select-none">
                 <ul className="flex justify-center gap-6 items-center">
                     <li className="transition ease-in-out delay-50 hover:-translate-y-2 hover:scale-110 duration-300"><Link href="https://www.instagram.com/mehtab_ali_011___/?next=%2Fproud.mp%2Ffeed%2F"><Instagram className="text-pink-600" /></Link></li>
                     <li className="transition ease-in-out delay-50 hover:-translate-y-2 hover:scale-110 duration-300"><Link href="https://www.facebook.com/profile.php?id=100024441846165"><Facebook className="text-blue-600" /></Link></li>
@@ -23,7 +23,7 @@ export default function Footer () {
             </div>
                 {/* email */}
             <div>
-                <h1 className="text-2xl font-bold ">ma8317076@gmail.com</h1>
+                <h1 className="text-2xl font-bold select-none">ma8317076@gmail.com</h1>
             </div>
             <hr className="h-1 text-white" />
             <div className="pt-7"></div>
