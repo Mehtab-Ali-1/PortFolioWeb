@@ -13,7 +13,7 @@ export default function About () {
             <div className="md:h-72 w-full max-md:w-screen bg-orange-100">
                 <Header />
                 <div className="md:text-4xl font-bold pt-20 font-serif flex justify-center items-center">
-                    <h1 className="max-md:pb-10 md:pt-16 max-md:text-2xl">About Me</h1>
+                    <h1 className="max-md:pb-10 md:pt-16 max-md:text-2xl select-none">About Me</h1>
                 </div>
             </div>
             {/* ********************* */}
@@ -25,24 +25,24 @@ export default function About () {
             <div className="md:flex space-x-10 items-center">
                 <div className="max-md:px-20 max-sm:px-6" >
                 
-                    <Image className="w-screen h-auto rounded-xl lg:h-80 border-orange-600 border-r-8 border-t-4 border-b-4" src="/mehtab.jpg" alt="ProfileImage" height={300} width={200}/>
+                    <Image className="w-screen h-auto rounded-xl lg:h-80 border-orange-600 border-r-8 border-t-4 border-b-4 select-none" src="/mehtab.jpg" alt="ProfileImage" height={300} width={200}/>
                 
                 </div>
             {/* two */}
             <div className="md:flex">
                 <div className="md:flex-1">
-                    <h1 className="md:text-4xl max-md:text-3xl text-blue-950  font-semibold font-serif pt-9 ">Designing With Passion While Exploring The World</h1>
+                    <h1 className="md:text-4xl max-md:text-3xl text-blue-950  font-semibold font-serif pt-9 select-none">Designing With Passion While Exploring The World</h1>
                     <p className="py-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laboriosam rem deleniti ipsa reiciendis! Mollitia minus consequuntur est, animi voluptatibus asperiores saepe accusantium ratione exercitationem praesentium corporis, quas fuga? Voluptate, praesentium molestiae pariatur quidem ducimus veniam!</p>
                     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit exercitationem odit, quibusdam culpa est consectetur expedita repudiandae iusto maiores porro.</p>
-                    <p className="pt-8">Let`s talk with me.</p>
-                    <Link className="text-blue-900 font-bold text-lg py-10" href="#">ma8317076@gmail.com</Link>
+                    <p className="pt-8 select-none">Let`s talk with me.</p>
+                    <Link className="text-blue-900 font-bold text-lg py-10 select-none" href="#">ma8317076@gmail.com</Link>
                 </div>
             </div>
             </div>
             {/* three */}
             <div className="lg:flex lg:px-5 px-8">
                 <div className=" pt-16">
-                    <h1 className="md:text-4xl max-md:text-3xl text-blue-950  font-semibold font-serif  ">I Create Products Not Just Arts</h1>
+                    <h1 className="md:text-4xl max-md:text-3xl text-blue-950  font-semibold font-serif select-none">I Create Products Not Just Arts</h1>
                     <p className="py-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem praesentium corporis, quas fuga? Voluptate, praesentium molestiae pariatur quidem ducimus veniam!</p>
                     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit exercitationem odit, quibusdam culpa est consectetur expedita repudiandae iusto maiores porro.</p>
                 </div>
@@ -56,7 +56,7 @@ export default function About () {
                 <p><Link className="bg-orange-600 text-white px-3 py-2 text-lg" href="#">Download CV</Link></p>
             </div>
             
-            <div className=" space-y-5 md:pt-10 pt-7 md:flex-1 ">
+            <div className=" space-y-5 md:pt-10 pt-7 md:flex-1 select-none">
             <div className="text-blue-950 font-bold">HTML
             <Progress className="h-4 " value={80} /></div>
             <div className="text-blue-950 font-bold">CSS
