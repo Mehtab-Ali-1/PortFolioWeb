@@ -25,7 +25,7 @@ export default function About () {
             <div className="md:flex space-x-10 items-center">
                 <div className="max-md:px-20 max-sm:px-6" >
                 
-                    <Image className="w-screen h-auto rounded-xl lg:h-80 picBorder" src="/mehtab.jpg" alt="ProfileImage" height={300} width={200}/>
+                    <Image className="w-screen h-auto rounded-xl lg:h-80 border-orange-600 border-r-8 border-t-4 border-b-4" src="/mehtab.jpg" alt="ProfileImage" height={300} width={200}/>
                 
                 </div>
             {/* two */}
