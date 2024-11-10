@@ -29,7 +29,7 @@ export default function HomeA () {
                     <Link className="bg-orange-600 text-white py-3 px-4 rounded-md text-xl hover:bg-slate-800 hover:text-orange-400 border-black " href="/">Learn More</Link></p>
                 </div>
                 <div className="flex pt-16 max-md:p-20 max-sm:px-6">
-                    <Image className="w-full h-auto picBorder" src="/mehtab.jpg" alt="ProfileImage" height={500} width={300}/>
+                    <Image className="w-full h-auto border-b-4 border-l-8 border-orange-600 rounded-2xl" src="/mehtab.jpg" alt="ProfileImage" height={500} width={300}/>
                 </div>
             </div>
         {/* ******************************************************* */}
