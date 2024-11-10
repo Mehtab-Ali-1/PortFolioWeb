@@ -26,10 +26,10 @@ export default function HomeA () {
                     <h1 className="text-4xl lg:text-6xl text-blue-950 font-semibold font-serif select-none">Web Developer</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Asperiores pariatur nesciunt quidem ducimus aut ratione quo <br /> fugit vero doloremque neque?</p>
                     <p className="pt-5">
-                    <Link className="bg-orange-600 text-white py-3 px-4 rounded-md text-xl hover:bg-slate-800 hover:text-orange-400 border-black " href="/">Learn More</Link></p>
+                    <Link className="bg-orange-600 text-white py-3 px-4 rounded-md text-xl hover:bg-slate-800 hover:text-orange-400 border-black select-none" href="/">Learn More</Link></p>
                 </div>
-                <div className="flex pt-16 max-md:p-20 max-sm:px-6 select-none">
-                    <Image className="w-full h-auto border-b-4 border-l-8 border-orange-600 rounded-2xl" src="/mehtab.jpg" alt="ProfileImage" height={500} width={300}/>
+                <div className="flex pt-16 max-md:p-20 max-sm:px-6">
+                    <Image className="w-full h-auto border-b-4 border-l-8 border-orange-600 rounded-2xl select-none" src="/mehtab.jpg" alt="ProfileImage" height={500} width={300}/>
                 </div>
             </div>
         {/* ******************************************************* */}
@@ -48,7 +48,7 @@ export default function HomeA () {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="py-8">
-                    <Link className="bg-orange-600 text-white py-2 px-4 text-lg rounded-lg space-y-4 hover:bg-slate-800 hover:text-orange-400" href="#">Contact Me</Link>
+                    <Link className="bg-orange-600 text-white py-2 px-4 text-lg rounded-lg space-y-4 hover:bg-slate-800 hover:text-orange-400 select-none" href="#">Contact Me</Link>
                 </div>
             </div>
             <div className=" leading-7 font-medium text-left md:flex max-md:px-2">
