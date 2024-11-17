@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer () {
     return (
-        <footer className="flex flex-col justify-center space-y-6 items-center px-6 bg-slate-300 h-60 w-full ">
+        <footer className="flex flex-col justify-center space-y-6 items-center px-6 bg-slate-300 h-80 w-full ">
             <div className="flex justify-center  min-[300px]:flex-col pt-10">
                 {/* logo  */}
                 <div>
@@ -25,8 +25,13 @@ export default function Footer () {
             <div>
                 <h1 className="text-2xl font-bold select-none">ma8317076@gmail.com</h1>
             </div>
-            <hr className="h-1 text-white" />
-            <div className="pt-7"></div>
+            <hr className="h-2 w-full text-slate-900 " />
+            <div className="flex flex-col justify-center items-center">
+                <p>© {new Date().getFullYear()} Mehtab Ali. All rights reserved.</p>
+            <div className="pb-5">
+                <Link href="/privacy" >Privacy Policy Terms of Service</Link>
+            </div>
+            </div>
         </footer>
     )
 }
